@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0c502b8-1d33-499a-8269-1c130d600df1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/opus-100/data_process/multilingual_preprocess.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/opus-100/train/fairseq_train.many-many.laa.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nmt/user_dir/data/multilingual_data_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="877" column="8" selection-start-line="877" selection-start-column="8" selection-end-line="877" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fairseq_dir/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>project_dir</find>
+      <find>multilingual_corpus_dir</find>
+      <find>master_port</find>
+      <find>extra_lang_pairs</find>
+      <find>vali</find>
+      <find>root_data_dir</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/opus-100/train/fairseq_train.many-many.laa.sh" />
+        <option value="$PROJECT_DIR$/scripts/opus-100/data_process/multilingual_preprocess.sh" />
+        <option value="$PROJECT_DIR$/params.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/nmt-multi.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="897" />
+    <option name="height" value="982" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq_dir" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq_dir" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq_dir" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq_dir" type="462c0819:PsiDirectoryNode" />
+              <item name="fairseq" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="speech_to_text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="nmt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="nmt" type="462c0819:PsiDirectoryNode" />
+              <item name="data_handling" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="nmt" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="nmt" type="462c0819:PsiDirectoryNode" />
+              <item name="user_dir" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="nmt" type="462c0819:PsiDirectoryNode" />
+              <item name="user_dir" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="opus-100" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="opus-100" type="462c0819:PsiDirectoryNode" />
+              <item name="data_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="opus-100" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nmt-multi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nmt-multi" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="opus-100" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="nmt-multi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fairseq_dir" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fairseq_dir/train.py" />
+      <option name="PARAMETERS" value="$PROJECT_DIR$/data/opus-100-corpus/preprocessed_data/main_data_bin     --user-dir $PROJECT_DIR$/nmt/user_dir     --task translation_multi_simple_epoch_enable_lang_id     --arch transformer_laa     --enable-tgt-lang-ids     --layernorm-embedding     --add-lang-aware-attention-to-decoder-self-attention     --sampling-method &quot;temperature&quot;     --sampling-temperature 5     --lang-dict $PROJECT_DIR$/data/opus-100-corpus/preprocessed_data/lang_dict.txt     --lang-pairs &quot;en-fr,cs-en&quot;     --source-dict $PROJECT_DIR$/data/opus-100-corpus/preprocessed_data/main_data_bin/dict.txt     --target-dict $PROJECT_DIR$/data/opus-100-corpus/preprocessed_data/main_data_bin/dict.txt     --share-all-embeddings     --optimizer adam     --clip-norm 0.0     --lr-scheduler inverse_sqrt     --warmup-init-lr 1e-07     --warmup-updates 4000     --lr 0.0005     --stop-min-lr 1e-09     --dropout 0.1     --weight-decay 0.0001     --criterion label_smoothed_cross_entropy     --label-smoothing 0.1     --max-tokens 2048     --update-freq 4     --max-epoch 30     --save-interval-updates 5000     --save-dir $PROJECT_DIR$/data/opus-100-corpus/many-many.laa/checkpoint     --keep-best-checkpoints 5     --keep-interval-updates 5     --skip-invalid-size-inputs-valid-test     --fp16" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0c502b8-1d33-499a-8269-1c130d600df1" name="Default Changelist" comment="" />
+      <created>1690381878960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690381878960</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1920" height="984" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17764892" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nmt/user_dir/data/multilingual_data_manager.py</url>
+          <line>955</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nmt/user_dir/data/multilingual_data_manager.py</url>
+          <line>926</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/opus-100/evaluation/eval.test.many-many.laa.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/data_handling/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/data_handling/corpus_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fairseq_dir/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nmt/user_dir/data/multilingual_data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="877" column="8" selection-start-line="877" selection-start-column="8" selection-end-line="877" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fairseq_dir/fairseq/models/speech_to_text/convtransformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/opus-100/data_process/multilingual_preprocess.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/opus-100/train/fairseq_train.many-many.laa.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
