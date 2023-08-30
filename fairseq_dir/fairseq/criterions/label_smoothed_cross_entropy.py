@@ -73,15 +73,6 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
         self.contrastive_lambda = contrastive_lambda
         self.temperature = temperature
 
-    @staticmethod
-    def add_args(parser):
-        LabelSmoothedCrossEntropyCriterion.add_args(parser)
-        parser.add_argument("--contrastive-lambda", type=float,
-                            default=0.0,
-                            help="The contrastive loss weight")
-        parser.add_argument("--temperature", type=float,
-                            default=1.0,)
-
     def swap_sample(self, sample):
         target = sample["target"]
         prev_output_tokens = sample["net_input"]["prev_output_tokens"]
@@ -90,7 +81,8 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
             "net_input": {
                 "src_tokens": target.contiguous(),
                 "src_lengths": (target != self.padding_idx).int().sum(dim=1),
-                "prev_output_tokens": src_tokens[:, :-1].contiguous()
+                "prev_output_tokens": src_tokens[:, :-1].contiguous(),
+                "tgt_lang_id": sample["tgt_lang_id"]
             },
             'nsentences': sample['nsentences'],
             'ntokens': utils.item((src_tokens[:, 1:] != self.padding_idx).int().sum().data),
@@ -108,23 +100,27 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
         """
         net_output = model(**sample["net_input"])
         loss, nll_loss = self.compute_loss(model, net_output, sample, reduce=reduce)
-        encoder_out = model.encoder.forward(sample["net_input"]["src_tokens"], sample["net_input"]["src_lengths"]).encoder_out
+
+        encoder_out = model.encoder.forward(sample["net_input"]["src_tokens"], sample["net_input"]["tgt_lang_id"], sample["net_input"]["src_lengths"])["encoder_out"]
         reverse_sample = self.swap_sample(sample)
-        reversed_encoder_out = model.encoder.forward(reverse_sample["net_input"]["src_tokens"], reverse_sample["net_input"]["src_lengths"]).encoder_out
+        reversed_encoder_out = model.encoder.forward(reverse_sample["net_input"]["src_tokens"], reverse_sample["net_input"]["tgt_lang_id"], reverse_sample["net_input"]["src_lengths"])["encoder_out"]
         contrastive_loss = self.get_contrastive_loss(
             encoder_out,
             reversed_encoder_out,
             sample,
             reverse_sample,
         )
+
         sample_size = (
             sample["target"].size(0) if self.sentence_avg else sample["ntokens"]
         )
+
         nsentences = sample["target"].size(0)
         ntokens = sample["ntokens"]
         all_loss = loss + contrastive_loss * self.contrastive_lambda * ntokens / nsentences
+
         logging_output = {
-            "loss": loss.data,
+            "loss": all_loss.data,
             "nll_loss": nll_loss.data,
             "ntokens": ntokens,
             "nsentences": nsentences,
@@ -165,8 +161,8 @@ class LabelSmoothedCrossEntropyCriterion(FairseqCriterion):
                 -1)  # [batch, hidden_size]
             return encoder_embedding
 
-        encoder_embedding1 = _sentence_embedding(encoder_out1, sample1)  # [batch, hidden_size]
-        encoder_embedding2 = _sentence_embedding(encoder_out2, sample2)  # [batch, hidden_size]
+        encoder_embedding1 = _sentence_embedding(encoder_out1[0], sample1)  # [batch, hidden_size]
+        encoder_embedding2 = _sentence_embedding(encoder_out2[0], sample2)  # [batch, hidden_size]
 
         batch_size = encoder_embedding2.shape[0]
         feature_dim = encoder_embedding2.shape[1]
